@@ -1,0 +1,122 @@
+/*Container(
+      color: Colors.blueAccent,
+      child: ListView(children: [
+        Container(
+          color: Colors.white,
+          child: ListTile(
+              leading: Image(image: AssetImage('images/mobile/8i.jpeg')),
+              title: Text('Realme 8i 64GB'),
+              trailing: Icon(Icons.add),
+              contentPadding:
+                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0)),
+        ),
+        Container(
+          margin: EdgeInsets.symmetric(vertical: 1.0),
+          color: Colors.white,
+          child: ListTile(
+              leading: Image(image: AssetImage('images/mobile/8.jpeg')),
+              title: Text('Realme 8 128GB'),
+              trailing: Icon(Icons.add),
+              contentPadding:
+                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0)),
+        ),
+        Container(
+          margin: EdgeInsets.symmetric(vertical: 1.0),
+          color: Colors.white,
+          child: ListTile(
+              leading: Image(image: AssetImage('images/mobile/narzo-50a.jpeg')),
+              title: Text('Realme Narzo 50a 128GB'),
+              trailing: Icon(Icons.add),
+              contentPadding:
+                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0)),
+        ),
+        Container(
+          margin: EdgeInsets.symmetric(vertical: 1.0),
+          color: Colors.white,
+          child: ListTile(
+              leading: Image(image: AssetImage('images/mobile/c21y.jpeg')),
+              title: Text('Realme c21y 128GB'),
+              trailing: Icon(Icons.add),
+              contentPadding:
+                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0)),
+        ),
+        Container(
+          margin: EdgeInsets.symmetric(vertical: 1.0),
+          color: Colors.white,
+          child: ListTile(
+              leading: Image(image: AssetImage('images/mobile/c31.jpeg')),
+              title: Text('POCCO c31 128GB'),
+              trailing: Icon(Icons.add),
+              contentPadding:
+                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0)),
+        ),
+          Container(
+          margin: EdgeInsets.symmetric(vertical: 1.0),
+          color: Colors.white,
+          child: ListTile(
+              leading: Image(image: AssetImage('images/mobile/f12.jpeg')),
+              title: Text('Samsung f12 64 GB'),
+              trailing: Icon(Icons.add),
+              contentPadding:
+                  EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0)),
+        )
+      ]),
+    );
+  }
+}*/
+
+
+
+
+
+/*
+SizedBox(
+              height: 500.0,
+              child: Card(
+                child: Padding(
+                  padding:
+                      EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+                  child: Column(
+                    children: [
+                      Image.asset('images/mobile/8.jpeg', height: 200),
+                      Divider(),
+                      Text(
+                        'Realme 8 ',
+                        style: TextStyle(fontSize: 30.0),
+                      ),
+                      FloatingActionButton(
+                        onPressed: () {
+                          print('Ok Report');
+                        },
+                        child: Text(
+                          'Click me',
+                          style: TextStyle(fontSize: 10.0),
+                        ),
+                        backgroundColor: Colors.pinkAccent,
+                        foregroundColor: Colors.black,
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            )*/
+
+
+            /*
+            class MyApp extends StatelessWidget {
+  Widget build(BuildContext context) {
+    return Center(
+        child: Container(
+            color: Colors.black,
+            child: Text(
+              add(20, 30),
+              textDirection: TextDirection.ltr,
+              style: TextStyle(fontSize: 20.0, color: Colors.redAccent),
+            )));
+  }
+
+  String add(a, b) {
+    return 'Addition of Two Number Is : ${a + b}';
+  }
+}
+*/
